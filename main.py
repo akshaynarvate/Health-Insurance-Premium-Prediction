@@ -5,7 +5,7 @@ import pickle
 import warnings
 
 warnings.filterwarnings("ignore")
-model = pickle.load(open("Model_Health_Insurance.pkl","rb")) #loading the created model
+model = pickle.load(open("Model_Health_insurance.pkl","rb")) #loading the created model
 
 
 st.set_page_config(page_title="Health Inusrance Premium Prediciton Application") #tab title
