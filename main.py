@@ -35,7 +35,7 @@ def main():
     
         diagnosis = predict_status(age, sex, bmi, smoker)
         if diagnosis:
-            st.write(diagnosis % "2.f")
+            st.write("Rs: ", diagnosis)
 
         else:
             st.error("Please Re-Enter your details")
