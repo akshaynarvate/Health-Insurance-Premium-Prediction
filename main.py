@@ -26,7 +26,7 @@ def main():
     age = st.number_input("Enter your Age")
     sex = st.number_input("Enter your sex(0-Female/1-Male)")
     bmi = st.number_input("Enter your BMI Index")
-    smoker = st.number_input("Enter your smoker status(0-No/1-Yes"))
+    smoker = st.number_input("Enter your smoker status(0-No/1-Yes)")
 
     #predict value
     diagnosis = ""
