@@ -33,7 +33,7 @@ def main():
 
     if st.button("Predict"):
     
-        diagnosis = predict_status(age, height, weight)
+        diagnosis = predict_status(age, sex, bmi, smoker)
         if diagnoisis:
             st.write(diagnosis, "Rs")
 
